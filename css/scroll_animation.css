@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Papyrus;
+}
+
+.title , footer{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title{
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
+
+footer{
+    background-image: linear-gradient(to top, #37d2dd 0%, #ff4eca 100%);
+}
+
+.animation{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.paper{
+    height: 100px;
+    position: absolute;
+    top:50%;
+    left:0;
+}
